@@ -31,12 +31,12 @@ export default function About({}: Props) {
             duration: 1,
           }}
           className="md:mb-0 mb-5 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[450px] xl:h-[450px]"
-          src="/images/zebra.jpg"
+          src="/images/myimg.jpg"
         />
         <div className="space-y-10 px-0 md:px-10">
           <h4 className="text-2xl md:text-4xl font-semibold">
-            Here is a{" "}
-            <span className="underline decoration-[#f7ab0a]/80">little</span>{" "}
+            Here is my{" "}
+            <span className="underline decoration-[#f7ab0a]/80">small</span>{" "}
             background
           </h4>
           <p className="text-sm md:text-base">

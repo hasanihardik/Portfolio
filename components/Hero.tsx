@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
-import zebra from "../public/images/zebra.jpg";
+import myimg from "../public/images/myimg.jpg";
 import Link from "next/link";
 
 type Props = {};
@@ -18,7 +18,7 @@ export default function Hero({}: Props) {
       <BackgroundCircle />
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src={zebra}
+        src={myimg}
         alt="profile"
       />
       

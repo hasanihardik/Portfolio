@@ -19,16 +19,16 @@ function Skills({}: Props) {
         Hover over a skill for current profieciency
       </h3>
       <div className="grid grid-cols-4 gap-5 xl:gap-8 ">
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
-        <Skill src="/images/zebra.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/myimg.jpg/" percent="100%"/>
       </div>
     </motion.div>
   );

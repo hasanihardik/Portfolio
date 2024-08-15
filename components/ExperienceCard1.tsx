@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
-import htmlIcon from '../public/images/html-icon.png'
 
 type Props = {};
 
@@ -22,20 +21,18 @@ export default function ExperienceCard({}: Props) {
           duration: 1,
         }}
         className="w-32 h-32 rounded-full object-cover"
-        src="/images/zebra.jpg"
+        src="/images/gdsc.png"
       />
       <div className="px-5 md:px-10 py-3">
-        <h4 className="text-3xl tracking-wider font-light">CEO of ZEBRAA</h4>
-        <p className="font-semibold text-xl mt-1">ZEBRAA Company</p>
-        <div className="flex space-x-2 my-2 ">
-            <Image className="w-7 h-7 rounded-full" src={htmlIcon} alt="icon" />
-            <Image className="w-7 h-7 rounded-full" src={htmlIcon} alt="icon" />
-            <Image className="w-7 h-7 rounded-full" src={htmlIcon} alt="icon" />
-        </div>
-        <p className="text-sm uppercase py-5 text-gray-300">Start - End</p>
+        <h4 className="text-3xl tracking-wider font-light">Member - GDSC</h4>
+        <p className="font-semibold text-xl mt-1">Google Developer Student Clubs</p>
+        <p className="text-sm uppercase py-5 text-gray-300">Oct 2022 - July 2024</p>
         <ul className="list-disc space-y-4 ml-5 text-base">
-            <li>Summary Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dicta.</li>
-            <li>Summary Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dicta.</li>
+            <li>Joined GDSC in my first semester and played an active role in the club. 
+              Participated in the interview panel, shortlisting candidates from over 1000 applicants. 
+              Served as an organizer and core committee member for GDSC VIT Chennai's flagship event, DevsHouse, 
+              where I handled sponsorships and successfully secured partnerships with Ethereum Foundation, Redbull, and others. 
+              </li>
         </ul>
       </div>
     </article>

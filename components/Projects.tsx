@@ -24,10 +24,10 @@ function Projects({}: Props) {
             initial={{y:-300,opacity:0}}
             whileInView={{opacity:1,y:0}}
             viewport={{once:true}}
-              src="/images/zebra.jpg"
+              src="/images/myimg.jpg"
               height={200}
               width={200}
-              alt="zebra"
+              alt="img"
               className="h-32 w-32 md:h-64 md:w-64"
             />
             <div className="space-y-10 px-0 md:px-10 max-w-5xl">
@@ -35,7 +35,7 @@ function Projects({}: Props) {
                 <span className="underline decoration-[#f7ab0a]/50">
                   Case Study {index + 1} of {projects.length} :
                 </span>{" "}
-                Zebra
+                MYIMG
               </h4>
               <p className="text-sm md:text-lg text-center md:text-left">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
