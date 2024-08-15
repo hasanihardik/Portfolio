@@ -19,16 +19,17 @@ function Skills({}: Props) {
         Hover over a skill for current profieciency
       </h3>
       <div className="grid grid-cols-4 gap-5 xl:gap-8 ">
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
-        <Skill src="/images/myimg.jpg/" percent="100%"/>
+        <Skill src="/images/html.svg/" percent="100%"/>
+        <Skill src="/images/css.svg/" percent="100%"/>
+        <Skill src="/images/js.png/" percent="80%"/>
+        <Skill src="/images/react.svg/" percent="80%"/>
+        <Skill src="/images/nodejs.svg/" percent="70%"/>
+        <Skill src="/images/nextjs.png/" percent="70%"/>
+        <Skill src="/images/mongo.png/" percent="80%"/>
+        <Skill src="/images/cpp.png/" percent="100%"/>
+        <Skill src="/images/java.png/" percent="75%"/>
+        <Skill src="/images/firebas.png/" percent="100%"/>
+        <Skill src="/images/aws.png/" percent="95%"/>
       </div>
     </motion.div>
   );
