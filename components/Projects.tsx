@@ -12,17 +12,22 @@ const projects = [
   },
   {
     id: 2,
-    imageSrc: "/images/movie.png", 
+    imageSrc: "/images/movie.png",
     title: "CineSangam",
     description: "CineSangam is an innovative social platform designed for movie enthusiasts to connect and share their passion for films. Developed using JavaScript, HTML, and CSS for a seamless and interactive user experience, CineSangam allows users to join watch parties, exchange reviews, and discuss both the latest releases and timeless classics. The platform leverages Python and Django for robust backend functionality, with Beautiful Soup employed for web scraping and gathering movie data. With personalized recommendations, trending film lists, and interactive features, CineSangam blends cutting-edge technology with a love for cinema, offering users a dynamic and engaging social experience."
+  },
+  {
+    id: 3,
+    imageSrc: "/images/imdb.png",
+    title: "CineVault",
+    description: "CineVault is a comprehensive movie database application that mirrors the functionality of IMDB. Developed with React for a dynamic front-end experience, it utilizes the OMDB API for extensive movie data and integrates advanced search capabilities, user ratings, and detailed film information. The application is styled using Tailwind CSS, ensuring a responsive and modern design. This project highlights proficiency in API integration, state management, and creating an engaging user interface."
+  },
+  {
+    id: 4,
+    imageSrc: "/images/crowd.png",
+    title: "Fundify",
+    description: "Fundify is a modern online crowdfunding platform featuring a reward-based system. Built with React and Node.js, Fundify allows users to create and support campaigns while offering various rewards for contributors. It includes secure payment processing, user authentication, and campaign management. Styled with Tailwind CSS, the platform provides a seamless and attractive user experience. This project demonstrates skills in full-stack development, including backend integration and front-end design."
   }
-  // ,
-  // {
-  //   id: 3,
-  //   imageSrc: "/images/project3.jpg", // Replace with actual image path
-  //   title: "Project Three",
-  //   description: "Description for project three goes here. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  // }
 ];
 
 function Projects({}: Props) {
