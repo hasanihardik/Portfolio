@@ -30,7 +30,7 @@ export default function ExperienceCard({}: Props) {
         <ul className="list-disc space-y-4 ml-5 text-base">
             <li>Joined GDSC in my first semester and played an active role in the club. 
               Participated in the interview panel, shortlisting candidates from over 1000 applicants. 
-              Served as an organizer and core committee member for GDSC VIT Chennai's flagship event, DevsHouse, 
+              Served as an organizer and core committee member for GDSC VIT Chennai&apos;s flagship event, DevsHouse, 
               where I handled sponsorships and successfully secured partnerships with Ethereum Foundation, Redbull, and others. 
               </li>
         </ul>

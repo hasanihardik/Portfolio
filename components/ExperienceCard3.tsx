@@ -25,7 +25,7 @@ export default function ExperienceCard({}: Props) {
       />
       <div className="px-5 md:px-10 py-3">
         <h4 className="text-3xl tracking-wider font-light">Organizer - SolveAThon</h4>
-        <p className="font-semibold text-xl mt-1">VIT's Official Hackathon</p>
+        <p className="font-semibold text-xl mt-1">VIT&apos;s Official Hackathon</p>
         <p className="text-sm uppercase py-5 text-gray-300">Jan 2024 - April 2024</p>
         <ul className="list-disc space-y-4 ml-5 text-base">
             <li>
